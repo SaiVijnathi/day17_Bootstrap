@@ -1,0 +1,220 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(59, 6, 6) , black);
+}
+
+.container-fluid{
+height: 70px;
+background-image: linear-gradient(to bottom, black , rgb(59, 6, 6));
+margin: 0;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+#logo{
+    width: 200px;   
+}
+
+#singIn{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin: 0 30px 0 25px;
+    padding: 0 15px 0 15px;
+    height: 35px;
+}
+
+#lang{
+    border: 0.5px solid white;
+    border-radius: 20px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar{
+    padding: 0;
+}
+
+#langIn{
+    color: white;
+    margin: auto;
+
+}
+
+.moviePic{
+ width: 100%;
+ height: 500px;
+ border-radius: 30px;
+}
+
+
+#carouselExampleAutoplaying{
+    width: 1250px;
+    margin: 20px auto 40px auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#search{
+    width: 500px;
+    margin:auto;
+    height: 60px;
+}
+
+#search input{
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-color: 2px solid white;
+}
+
+#search input::placeholder{
+    color: white;
+}
+
+#search button{
+    width: 250px;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: none;
+}
+
+
+#getStart button{
+    width: 150px;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 1.01rem;
+    border: none;
+    margin: 30px auto 10px auto;
+}
+
+
+
+#accordionExample{
+    width: 1050px;
+    margin: 30px auto 30px auto;
+}
+
+#accordionExample h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#collapseOne,#collapseTwo,#collapseThree,#collapseFour{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+#collapseLabelOne,#collapseLabelTwo,#collapseLabelThree,#collapseLabelFour{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    height: 70px;
+}
+
+.accordion-item{
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+
+#collapseLabelOne:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#collapseLabelTwo:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#collapseLabelThree:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+
+#collapseLabelFour:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.card{
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 280px;
+}
+
+.card h5{
+    text-align: center;
+}
+
+.card-img-top{
+    border-radius: 20px;
+    height: 200px;
+}
+
+#moviesList{
+    width: 1050px;
+    margin: 30px auto 0 auto;
+
+}
+
+#moviesList h1{
+    color:white;
+    font-weight: bold;
+}
+
+#watchListDiv{
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+}
+
+
+
+#footerDiv{
+    background-color: transparent !important;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.text-muted {
+    color: white !important; 
+  }
+  
+.container{
+    background-color: transparent;
+}
+  
+  footer .btn-outline-secondary {
+    color: #ccc;
+    border-color: #ccc;
+  }
+  
+  footer .btn-outline-secondary:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .text-center{
+    text-align: left !important;
+  }
